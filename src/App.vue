@@ -6,7 +6,7 @@
       <router-view></router-view>
     </v-container>
     </v-content>
-    <rodape-site  />
+    <rodape-site />
   </v-app>
 </template>
 
