@@ -1,13 +1,13 @@
 <template>
-  <div class="conteudo">
+  <v-app id="inspire">
     <menu-site :rotas="routes"></menu-site>
     <router-view></router-view>
-  </div>
+  </v-app>
 </template>
 
 <script>
 import { routes } from './routes'
-import Menu from './components/shared/menu/Menu.vue'
+import Menu from './components/shared/menu/Menu'
 
 export default {
   components: {
