@@ -1,11 +1,18 @@
 <template>
   <div>
     <h2 class="centralizado">Notícias</h2>
+    <carrosel-noticias></carrosel-noticias>
   </div>
 </template>
 
 <script>
-export default {};
+import Carrosel from './Carrosel'
+
+export default {
+  components: {
+    'carrosel-noticias': Carrosel
+  }
+};
 </script>
 
 <style scoped>

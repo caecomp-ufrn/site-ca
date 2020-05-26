@@ -1,11 +1,18 @@
 <template>
   <div>
     <h2 class="centralizado">Contato</h2>
+    <formulario />
   </div>
 </template>
 
 <script>
-export default {};
+import Form from './Form'
+
+export default {
+  components:{
+    'formulario': Form
+  }
+};
 </script>
 
 <style scoped>
